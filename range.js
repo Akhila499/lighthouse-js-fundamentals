@@ -1,6 +1,6 @@
 const range =  function (start, end, step){
   let final = [];
-  if (((start && end && step) != undefined ) && (start < end) && (step != 0)){
+  if (((start && end && step) != undefined ) && (start < end) && (step > 0)){
     for ( let temp = start ; temp <= end ; temp+step  ){
       final.push(temp);  
       temp += step;
